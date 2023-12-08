@@ -1,0 +1,42 @@
+{
+ "cards": [
+  {
+   "card": "numbers of drinks"
+  },
+  {
+   "card": "coffee"
+  },
+  {
+   "card": "tea"
+  }
+ ],
+ "charts": [
+  {
+   "width": "Half"
+  },
+  {
+   "chart": "drinks chart",
+   "width": "Half"
+  },
+  {
+   "chart": "type of drinks",
+   "width": "Half"
+  },
+  {
+   "chart": "bar",
+   "width": "Half"
+  }
+ ],
+ "creation": "2023-12-05 18:29:23.294292",
+ "dashboard_name": "market dashdoard",
+ "docstatus": 0,
+ "doctype": "Dashboard",
+ "idx": 0,
+ "is_default": 1,
+ "is_standard": 1,
+ "modified": "2023-12-05 19:16:27.835815",
+ "modified_by": "Administrator",
+ "module": "Test1",
+ "name": "market dashdoard",
+ "owner": "Administrator"
+}

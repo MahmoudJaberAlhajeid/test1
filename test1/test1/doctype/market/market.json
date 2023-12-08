@@ -1,0 +1,66 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-12-05 12:54:55.931685",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "buying_section",
+  "drinks",
+  "price",
+  "date"
+ ],
+ "fields": [
+  {
+   "fieldname": "buying_section",
+   "fieldtype": "Section Break",
+   "label": "buying"
+  },
+  {
+   "fieldname": "drinks",
+   "fieldtype": "Select",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
+   "label": "drinks",
+   "options": "Coffee\nTea\nNescafe\nHerbs\nNatural juice\nSoft drinks"
+  },
+  {
+   "fieldname": "price",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "price"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "date "
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-12-05 18:59:50.228254",
+ "modified_by": "Administrator",
+ "module": "Test1",
+ "name": "market",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
